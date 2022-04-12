@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'FormPage.dart';
+import 'FormPage2.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,12 +13,7 @@ class MyApp extends StatelessWidget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-          appBar: AppBar(
-            leading: Icon(Icons.menu),
-            title: Text("Login"),
-            actions: [Icon(Icons.check)],
-          ),
-        body: FormPage(),
+        body: FormPage2(),
       ),
     );
   }
